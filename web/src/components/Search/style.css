@@ -1,0 +1,53 @@
+h1 {
+  font-size: 1.75rem;
+}
+
+.search_row {
+  width: 100%;
+}
+
+#search_select_input {
+  height: 70px;
+  width: 100%;
+}
+
+#search_input {
+  height: 70px;
+}
+
+[placeholder]{
+  text-overflow:ellipsis;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  text-overflow:ellipsis;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  text-overflow:ellipsis;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  text-overflow:ellipsis;
+}
+:-moz-placeholder { /* Firefox 18- */
+  text-overflow:ellipsis;
+}
+
+.search_button {
+  height: 70px;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .search_row {
+    width: auto;
+  }
+
+  .search_button {
+    width: 70px;
+  }
+}
+
+@media (min-width: 769px) {
+  #search_select_input {
+    width: 342px;
+  }
+}

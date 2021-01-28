@@ -1,0 +1,25 @@
+.topBar {
+padding-top: 7px;
+}
+
+.topBar .nav-item .nav-link {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.logo-sm {
+  width: 42px;
+  height: auto;
+}
+
+.navbar-dark .navbar-toggler {
+  color: #ffffff;
+  border-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .logo-sm {
+    display: none;
+  }
+}

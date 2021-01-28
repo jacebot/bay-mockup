@@ -1,0 +1,23 @@
+.custom_navbar {
+  background-color: transparent;
+  color: #ffffff;
+  display: none;
+  top: 66px;
+}
+
+.nav-item {
+  margin-right: 34px;
+  color: #ffffff;
+}
+
+.custom_navbar .nav-item .nav-link {
+  color: #ffffff;
+}
+
+
+@media (min-width: 768px) {
+  .logo,
+  .custom_navbar{
+    display: flex;
+  }
+}

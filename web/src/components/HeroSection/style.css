@@ -1,0 +1,12 @@
+#hero {
+  margin-top: -135px;
+  height: 1024px;
+  width: 100%;
+  background-image: url('../../../public/img/Corporate-Services-Mock.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
