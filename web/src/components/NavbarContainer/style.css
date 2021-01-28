@@ -2,7 +2,10 @@
   background-color: transparent;
   color: #ffffff;
   display: none;
-  top: 66px;
+}
+
+.logo{
+  max-width: 125px
 }
 
 .nav-item {
@@ -13,7 +16,6 @@
 .custom_navbar .nav-item .nav-link {
   color: #ffffff;
 }
-
 
 @media (min-width: 768px) {
   .logo,

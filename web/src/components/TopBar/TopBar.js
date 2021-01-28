@@ -12,7 +12,7 @@ import './style.css'
 const TopBar = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <Navbar sticky="top" color="dark" dark expand="md" className="p-0 py-1">
+    <Navbar sticky="top" expand="md" className="p-0 py-1 new-dark">
       <NavbarBrand href="#">
         <img
           src={'./img/Logo_107010_Premier_Realty_VER_STK_W_MO@1x.png'}
@@ -25,7 +25,7 @@ const TopBar = () => {
           className="w-6 h-6"
           width="27"
           height="27"
-          fill="currentColor"
+          fill="#ffffff"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -51,7 +51,7 @@ const TopBar = () => {
             <NavLink href="#">Property Management</NavLink>
           </NavItem>
         </Nav>
-        <Nav className="ml-auto justify-end topBar d-block d-sm-none" navbar>
+        <Nav className="ml-auto justify-end topBar d-block d-md-none" navbar>
           <NavItem>
             <NavLink href="#">Buy</NavLink>
           </NavItem>

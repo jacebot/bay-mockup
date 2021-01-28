@@ -18,7 +18,7 @@ const NavbarContainer = () => {
     >
       <NavbarBrand href="#">
         <img
-          src={'./img/Logo_107010_Premier_Realty_VER_STK_W_MO@1x.png'}
+          src={'./img/Logo_107010_Premier_Realty_VER_STK_W_MO.png'}
           alt="Coldwell Banker Premier Realty logo"
           className="logo"
         />

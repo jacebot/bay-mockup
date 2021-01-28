@@ -1,5 +1,10 @@
+.new-dark {
+  background-color: rgb(46, 42, 38);
+  color: #ffffff;
+}
+
 .topBar {
-padding-top: 7px;
+padding-top: 4px;
 }
 
 .topBar .nav-item .nav-link {
