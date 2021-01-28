@@ -3,7 +3,7 @@ import './style.css'
 const HeroSection = () => {
   return (
     <section id="hero">
-      <div className="container">
+      <div className="container-fluid">
         <div className="text-intro">
           <Search />
         </div>

@@ -10,3 +10,8 @@
   justify-content: center;
   align-items: center;
 }
+
+.text-intro {
+  max-width: 1340px;
+  margin: auto;
+}

@@ -12,7 +12,7 @@ import './style.css'
 const TopBar = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <Navbar sticky="top" color="dark" dark expand="sm" className="p-0 py-1">
+    <Navbar sticky="top" color="dark" dark expand="md" className="p-0 py-1">
       <NavbarBrand href="#">
         <img
           src={'./img/Logo_107010_Premier_Realty_VER_STK_W_MO@1x.png'}

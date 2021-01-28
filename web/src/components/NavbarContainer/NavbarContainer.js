@@ -13,7 +13,7 @@ const NavbarContainer = () => {
     <Navbar
       sticky="top"
       color="transparent"
-      expand="sm"
+      expand="md"
       className="custom_navbar"
     >
       <NavbarBrand href="#">
