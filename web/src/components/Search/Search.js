@@ -18,6 +18,7 @@ const Search = () => {
               type="select"
               name="select"
               id="search_select_input"
+              className="select-css"
             >
               <option>Properties</option>
               <option>2</option>
