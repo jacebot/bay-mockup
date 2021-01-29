@@ -4,7 +4,7 @@
 }
 
 .topBar {
-padding-top: 4px;
+  padding-top: 4px;
 }
 
 .topBar .nav-item .nav-link {
@@ -16,6 +16,7 @@ padding-top: 4px;
 .logo-sm {
   width: 42px;
   height: auto;
+  margin-left: 12px;
 }
 
 .navbar-dark .navbar-toggler {
